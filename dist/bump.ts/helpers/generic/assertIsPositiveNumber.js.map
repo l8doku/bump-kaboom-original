@@ -1,0 +1,1 @@
+{"version":3,"file":"assertIsPositiveNumber.js","sourceRoot":"","sources":["../../../../src/bump.ts/helpers/generic/assertIsPositiveNumber.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,UAAU,sBAAsB,CAC5C,KAAa,EACb,IAAY;IAEZ,IAAI,KAAK,CAAC,KAAK,CAAC,IAAI,KAAK,IAAI,CAAC;QAC5B,MAAM,IAAI,KAAK,CACb,IAAI,IAAI,yCAAyC,KAAK,KAAK,OAAO,KAAK,GAAG,CAC3E,CAAC;AACN,CAAC"}

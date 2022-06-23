@@ -1,0 +1,1 @@
+{"version":3,"file":"assertType.js","sourceRoot":"","sources":["../../../../src/bump.ts/helpers/generic/assertType.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,OAAO,UAAU,UAAU,CAAC,WAAmB,EAAE,KAAU,EAAE,IAAY;IAC9E,IAAI,OAAO,KAAK,KAAK,WAAW;QAC9B,MAAM,IAAI,KAAK,CACb,IAAI,IAAI,eAAe,WAAW,eAAe,KAAK,KAAK,OAAO,KAAK,GAAG,CAC3E,CAAC;AACN,CAAC"}

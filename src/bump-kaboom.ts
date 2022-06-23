@@ -1,6 +1,6 @@
 import { KaboomCtx, GameObj, Tag, Vec2, Origin } from "kaboom"
-import Bump from '../bump.ts/src/index'
-import { IRect, ICoords } from '../bump.ts/src/index'
+import Bump from './bump.ts/index'
+import { IRect, ICoords } from './bump.ts/index'
 
 export interface BumpCollision {
   other: any | null | undefined;
@@ -88,7 +88,7 @@ export default (k: KaboomCtx) => {
     return {
   
       id: "barea",
-      require: ["pos"],
+      require: ["pos", "area"],
 
       barea: {
         w: 0,
@@ -115,7 +115,6 @@ export default (k: KaboomCtx) => {
         const pos = (this.pos ?? vec2(0))
             .sub(bareaOffset);
         this.barea.offset = bareaOffset
-        console.log(bareaOffset)
 
         world.add(this, pos.x, pos.y, w, h)
       },
@@ -165,7 +164,3 @@ export default (k: KaboomCtx) => {
       barea
     }
   }
-
-
-
-  
